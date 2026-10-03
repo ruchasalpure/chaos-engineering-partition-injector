@@ -1,26 +1,30 @@
 spec_version: "0.1.0"
-name: "chaos-engineering-partition-injector"
-version: "1.0.0"
-category: "devtools"
+name: chaos-engineering-partition-injector
+version: 1.0.0
+description: Orchestrates non-deterministic network partition, packet corruption, and clock skew experiments to validate distributed consensus invariants.
 author: "Rucha Salpure"
-description: "Orchestrates non-deterministic network partition, packet corruption, and clock skew experiments to validate distributed consensus invariants"
-capabilities:
-  - "fault-injection-invariant-audit"
-  - "autonomous-decision-making"
-  - "explainable-auditing"
-  - "multi-agent-collaboration"
+license: MIT
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-5-20250929
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
 skills:
-  - "fault-injection-invariant-audit"
-tools:
-  - "python_executor"
-  - "audit_logger"
-  - "schema_validator"
+  - fault-injection-invariant-audit
+tools: []
+delegation:
+  mode: auto
 runtime:
-  environment: "python3.11"
-  memory_limit: "4GB"
-  timeout_seconds: 300
-governance:
-  audit_logging: true
-  human_in_the_loop: false
-  maker_checker: true
-  explainability_required: true
+  max_turns: 50
+  timeout: 300
+compliance:
+  risk_tier: standard
+  frameworks: []
+tags:
+  - devtools
+  - autonomous-agent
+  - opengap-verified
+metadata:
+  repository: "https://github.com/ruchasalpure/chaos-engineering-partition-injector"

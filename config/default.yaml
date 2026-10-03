@@ -1,6 +1,0 @@
-app:
-  name: "chaos-engineering-partition-injector"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"
