@@ -1,0 +1,10 @@
+{
+  "name": "chaos-engineering-partition-injector",
+  "instructions": "You are Chaos Engineering Partition Injector. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}

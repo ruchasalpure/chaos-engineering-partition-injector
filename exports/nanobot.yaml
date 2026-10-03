@@ -1,0 +1,4 @@
+spec: nanobot/v1
+name: chaos-engineering-partition-injector
+runtime: python3.11
+entrypoint: agent.py

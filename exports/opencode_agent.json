@@ -1,0 +1,8 @@
+{
+  "agent_id": "chaos-engineering-partition-injector",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}
